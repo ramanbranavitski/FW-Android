@@ -89,8 +89,6 @@
     <string name="rating">Rating</string>
     <string name="date">Date</string>
     <string name="forgot_password">Forgot Password?</string>
-    <string name="shutdown_text">The system has been shut down for maintenance. All your data and assets are safe. We apologize for any inconvenience this may cause.</string>
-    <string name="address_successfully_copied">Wallet address successfully copied</string>
     <string name="settings_security">Security</string>
     <string name="settings_faq">FAQ</string>
     <string name="settings_about_us">About Us</string>
@@ -215,7 +213,6 @@
     <string name="empty_invited_merchants">Once you introduce new merchants to the system, their names and contributions will be listed here</string>
     <string name="empty_invited_consumers">Once you introduce new consumers to the system, their names and contributions will be listed here</string>
     <string name="referred_consumer">Referred Consumer</string>
-    <string name="total_income">Total Income</string>
     <string name="empty_contribution_merchants">Once your referred merchant sell something, you will get commission fees and their details will be shown here</string>
     <string name="empty_contribution_consumer">Once your referred consumer purchase something, you will get commission fees and their details will be shown here</string>
     <string name="area">Area</string>
@@ -240,7 +237,6 @@
     <string name="tab_title_daily">Daily</string>
     <string name="tab_title_weekly">Weekly</string>
     <string name="tab_title_monthly">Monthly</string>
-    <string name="chart_no_data">No data</string>
     <string name="my_balance">My balance</string>
     <string name="on_sale">On sale</string>
     <string name="out_of_market">Out of market</string>
@@ -259,7 +255,6 @@
     <string name="no_offers">Once you create the %1$s sale offer, it\'s details will be shown here</string>
     <string name="new_lpt_offer">New %1$s offer</string>
     <string name="amount_to_sell">Amount of %1$s to Sell</string>
-    <string name="amount_value" translatable="false">%1$s %2$s</string>
     <string name="agent">Agent</string>
     <string name="tab_country">Country</string>
     <string name="tab_state">State/Province</string>
@@ -273,7 +268,7 @@
     <string name="txt_go_to_login">Go to login</string>
     <string name="title_create_blockchain_acc">Create blockchain account</string>
     <string name="remember_passphrase_text">Please write down or memorize your passphrase. It is a key to your blockchain account and will be used to sign your transactions.</string>
-    <string name="copy_your_passphrase_text">Copy your passphrase</string>
+    <string name="your_passphrase_text">Your passphrase</string>
     <string name="pick_transaction_pass_text">Please pick your transaction password carefully. You will have to provide it every time you make transactions (i.e. buying goods, transferring %1$s/%2$s etc)</string>
     <string name="create_transaction_pass_text">Create transaction password</string>
     <string name="transaction_password">Transaction password</string>
@@ -292,6 +287,7 @@
     <string name="enter_passphrase">Enter your passphrase</string>
     <string name="next">Next</string>
     <string name="error_incorrect_passphrase">The passphrase you provided is incorrect</string>
+    <string name="error_verify_passphrase">Input passphrase is incorrect. Please try again</string>
     <string name="blockchain_enter_pass">Enter transaction password to view the passphrase to your blockchain wallet</string>
     <string name="view">View</string>
     <string name="blockchain_timer_value">%d sec</string>
@@ -343,6 +339,16 @@
     <string name="error_incorrect_cashout_sum">%1$s amount must be multiple %2$s</string>
     <string name="shipping_included">Shipping Included</string>
     <string name="shipping_not_included">Shipping not Included</string>
+    <string name="no_orders">You don\'t have any orders yet. Once you\'ve made a purchase, a new order will show up here.</string>
+    <string name="generate_passphrase_text">Since only you control your money, you\'ll need to save your backup phrase in case this app is deleted. Your wallet is never saved to cloud storage or standard device backups.\n\nWrite down the showing pass phrase on the note, keep it in a safe &amp; findable place.</string>
+    <string name="title_generate_passphrase">Back up Passphrase</string>
+    <string name="generate_passphrase_btn_text">I\'ve written it down</string>
+    <string name="title_verify_passphrase">Verify the passphrase</string>
+    <string name="type_in_correct_order">Please type each word in correct order</string>
+    <string name="clear">Clear</string>
+    <string name="is_it_correct">Is it correct?</string>
+    <string name="memorize_passphrase_into_text">In order to memorize the passphrase properly please select the phrases in right sequence from left to right for the 2nd time</string>
+    <string name="passphrase_backed_up">Your passphrase is backed up</string>
     <string-array name="wallets_page_titles">
         <item>Internal transfer</item>
         <item>External wallet</item>
