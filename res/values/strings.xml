@@ -158,6 +158,12 @@
     <string name="text_status_completed">Completed</string>
     <string name="text_status_disputed">Disputed</string>
     <string name="text_status_reversed">Reversed</string>
+    <string name="text_status_pending">Pending</string>
+    <string name="text_status_failed">Failed</string>
+    <string name="text_status_pending_complete">Pending complete</string>
+    <string name="text_status_failed_complete">Failed complete</string>
+    <string name="text_status_pending_refund">Pending refund</string>
+    <string name="text_status_failed_refund">Failed refund</string>
     <string name="text_dispute">Dispute</string>
     <string name="text_rate">Rate</string>
     <string name="text_comment">Comment</string>
@@ -239,9 +245,8 @@
     <string name="tab_title_monthly">Monthly</string>
     <string name="my_balance">My balance</string>
     <string name="on_sale">On sale</string>
-    <string name="out_of_market">Out of market</string>
-    <string name="total">Total</string>
     <string name="invite_citizens">Invite Citizens</string>
+    <string name="out_of_market">Out of market</string>
     <string name="top_offers_title">Top 10 Offers</string>
     <string name="my_offers_title">My Offer</string>
     <string name="unit_price">Unit price</string>
@@ -251,7 +256,6 @@
     <string name="set_unit_price">Set Unit Price, %s</string>
     <string name="total_price">Total Price, %1$s</string>
     <string name="best_offer">Best offer</string>
-    <string name="existing_ged">Existing %1$s</string>
     <string name="no_offers">Once you create the %1$s sale offer, it\'s details will be shown here</string>
     <string name="new_lpt_offer">New %1$s offer</string>
     <string name="amount_to_sell">Amount of %1$s to Sell</string>
@@ -340,6 +344,11 @@
     <string name="shipping_included">Shipping Included</string>
     <string name="shipping_not_included">Shipping not Included</string>
     <string name="no_orders">You don\'t have any orders yet. Once you\'ve made a purchase, a new order will show up here.</string>
+    <string name="statistic_title">Statistic</string>
+    <string name="shrinker_address">Shrinked address</string>
+    <string name="initial_total_amount">Initial Total Amount</string>
+    <string name="outstanding_amount">Outstanding amount</string>
+    <string name="quantity_destroyed">Quantity destroyed</string>
     <string name="generate_passphrase_text">Since only you control your money, you\'ll need to save your backup phrase in case this app is deleted. Your wallet is never saved to cloud storage or standard device backups.\n\nWrite down the showing pass phrase on the note, keep it in a safe &amp; findable place.</string>
     <string name="title_generate_passphrase">Back up Passphrase</string>
     <string name="generate_passphrase_btn_text">I\'ve written it down</string>
