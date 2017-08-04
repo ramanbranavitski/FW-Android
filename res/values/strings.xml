@@ -365,6 +365,13 @@
     <string name="order_reversed_chat_forbidden">This order is reversed. You cannot have discussion.</string>
     <string name="estimated_shipping_time">Estimated shipping time:</string>
     <string name="estimated_shipping_time_description">You can receive the ordered product within that day range. You can also enjoy a protection period of 7 days after order is delivered to you.</string>
+    <string name="no_favorite_products">Once you select any product as favorite, you will see its details here</string>
+    <string name="chat_with">Chat with</string>
+    <string name="price">Price</string>
+    <string name="reservation_timer_value">The reservation will end in %s</string>
+    <string name="reservation_timer_over">Reservation time is over. Please start order again</string>
+    <string name="copy">Copy</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
     <string-array name="wallets_page_titles">
         <item>Internal transfer</item>
         <item>External wallet</item>
