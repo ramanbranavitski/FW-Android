@@ -370,8 +370,10 @@
     <string name="price">Price</string>
     <string name="reservation_timer_value">The reservation will end in %s</string>
     <string name="reservation_timer_over">Reservation time is over. Please start order again</string>
+    <string name="locations">Locations</string>
+    <string name="location">Location</string>
     <string name="copy">Copy</string>
-    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="copied_to_clipboard">Wallet address has been copied to the clipboard</string>
     <string-array name="wallets_page_titles">
         <item>Internal transfer</item>
         <item>External wallet</item>
@@ -388,5 +390,10 @@
         <item quantity="one">%d day</item>
         <item quantity="few">%d days</item>
         <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="location">
+        <item quantity="one">%d Location</item>
+        <item quantity="few">%d Locations</item>
+        <item quantity="other">%d Locations</item>
     </plurals>
 </resources>
