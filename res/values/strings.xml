@@ -391,7 +391,7 @@
         <item quantity="few">%d days</item>
         <item quantity="other">%d days</item>
     </plurals>
-    <plurals name="location">
+    <plurals name="plural_location">
         <item quantity="one">%d Location</item>
         <item quantity="few">%d Locations</item>
         <item quantity="other">%d Locations</item>
