@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="empty_list_default">No data is currently available</string>
+    <string name="search_empty_message">Unfortunately, there are no results matching your query</string>
+    <string name="empty_disputes_list">Your communication with the admin and merchants regarding disputed orders will be displayed here.</string>
+    <string name="empty_chats_list">Your communication with other consumers will be displayed here.</string>
+    <string name="empty_invited_consumers">Once you introduce new consumers to the system, their names and contributions will be listed here</string>
+    <string name="empty_invited_merchants">Once you introduce new merchants to the system, their names and contributions will be listed here</string>
+    <string name="empty_contribution_merchants">Once your referred merchant sells something, you will get commission fees and their details will be shown here</string>
+    <string name="empty_contribution_consumer">Once your referred consumer purchases something, you will get commission fees and their details will be shown here</string>
+    <string name="empty_agent_income">Once you become an Agent, you will get commission fees and their details will be shown here</string>
+    <string name="empty_agent_income_details">Once any user purchases a product within this area, you will receive your commission</string>
+    <string name="empty_my_offer">Once you create a %1$s sale offer, its details will be shown here</string>
+    <string name="empty_offers">Once somebody creates a %1$s sale offer, its details will be shown here</string>
+    <string name="empty_merchant_products">Once the merchant publishes products, you will see details here</string>
+    <string name="empty_merchants">Once any merchant joins us, the shop details will be shown here</string>
+    <string name="empty_orders">You have no orders yet. Once you\'ve made a purchase, a new order will show up here</string>
+    <string name="empty_favorite_products">Once you select any product as a favorite, you will see its details here</string>
+    <string name="empty_products">Once the merchants publish products, you will see details here</string>
+    <string name="blockchain_message">Blockchain takes time. Please wait</string>
+    <string name="remove_offer_text">Are you sure you want to cancel this offer?</string>
     <string name="take_photo">Take Photo</string>
     <string name="choose_from_gallery">Choose From Gallery</string>
-    <string name="empty_list_default">No data is currently available</string>
-    <string name="empty_search_list">No results found for %s</string>
     <string name="confirm">Confirm</string>
     <string name="cancel">Cancel</string>
     <string name="remove">Remove</string>
@@ -37,6 +54,7 @@
     <string name="text_terms_second">Terms and Conditions</string>
     <string name="text_logging_in">Logging in</string>
     <string name="text_please_wait">Please wait…</string>
+
     <string name="text_empty_email">Email cannot be empty</string>
     <string name="text_invalid_email">Invalid email</string>
     <string name="text_empty_name">Name cannot be empty</string>
@@ -54,6 +72,7 @@
     <string name="text_submitting_comment">Submitting comment</string>
     <string name="text_submitting_rating">Submitting rating</string>
     <string name="incorrect_password">Incorrect password</string>
+
     <string name="title_registration">Registration</string>
     <string name="provide_introducer_email">Provide your Introducer\'s email</string>
     <string name="no_introducer">I don\'t have an Introducer</string>
@@ -62,7 +81,7 @@
     <string name="password_rules">Password Rules</string>
     <string name="password_rules_text">The password must contain at least:\n        \n- 8 characters\n        \n- one uppercase character (A-Z)\n        \n- one lowercase character (a-z)\n        \n- one number (0-9)</string>
     <string name="text_resent_success">An activation link has been sent to your mailbox</string>
-    <string name="activation_reminder">Activate your account by clicking on the link in the activation email sent to you.\n\nIf you did not receive the email, use the resend option below</string>
+    <string name="activation_reminder">Activate your account by clicking the link in the activation email sent to you.\n\nIf you have not received the email, use the resend option below.</string>
     <string name="text_resend">Resend</string>
     <string name="menu_my_wealth">My Wealth</string>
     <string name="menu_shopping">Shopping</string>
@@ -123,9 +142,7 @@
     <string name="country">Country</string>
     <string name="top">Top</string>
     <string name="txt_company_name">Company name</string>
-    <string name="empty_disputes_list">Your communication with admins regarding disputes will be displayed here.</string>
     <string name="empty_product_chats_list">Your communication with merchants regarding products will be displayed here. To initiate a chat with a merchant, please tap \'Start Chat\' on a product page.</string>
-    <string name="empty_chats_list">Your communication will be displayed here.</string>
     <string name="chat_message_hint">Text…</string>
     <string name="text_camera">Camera</string>
     <string name="text_gallery">Gallery</string>
@@ -143,13 +160,13 @@
     <string name="default_error">Error</string>
     <string name="connection_error">Please check your network connection</string>
     <string name="timeout_error">Timeout error. Please, try again</string>
-    <string name="error_pass_short">%s length should be at least 8 characters</string>
-    <string name="error_pass_no_lowercase">%s must contain at least one lowercase character (a-z)</string>
-    <string name="error_pass_no_uppercase">%s must contain at least one uppercase character (A-Z)</string>
-    <string name="error_pass_no_number">%s must contain at least one number</string>
-    <string name="error_passwords_does_not_match">Passwords don\'t match</string>
+    <string name="error_pass_short">The %s must be at least 8 characters long</string>
+    <string name="error_pass_no_lowercase">The %s must contain at least one lowercase character (a-z)</string>
+    <string name="error_pass_no_uppercase">The %s must contain at least one uppercase character (A-Z)</string>
+    <string name="error_pass_no_number">The %s must contain at least one number</string>
+    <string name="error_passwords_does_not_match">The passwords don\'t match</string>
     <string name="error_invalid_pass_format">Invalid %s format</string>
-    <string name="error_empty_pass">%s cannot be empty</string>
+    <string name="error_empty_pass">The %s cannot be empty</string>
     <string name="text_quantity">Quantity</string>
     <string name="text_total_price">Total Price</string>
     <string name="text_price">Price</string>
@@ -216,21 +233,15 @@
     <string name="title_merchant_contribution_details">Merchant Contribution Details</string>
     <string name="title_consumer_income_details">Consumer Income Details</string>
     <string name="income">Income</string>
-    <string name="empty_invited_merchants">Once you introduce new merchants to the system, their names and contributions will be listed here</string>
-    <string name="empty_invited_consumers">Once you introduce new consumers to the system, their names and contributions will be listed here</string>
     <string name="referred_consumer">Referred Consumer</string>
-    <string name="empty_contribution_merchants">Once your referred merchant sell something, you will get commission fees and their details will be shown here</string>
-    <string name="empty_contribution_consumer">Once your referred consumer purchase something, you will get commission fees and their details will be shown here</string>
     <string name="area">Area</string>
-    <string name="empty_agent_income">Once your become an Agent, you will get commission fees and their details will be shown here</string>
-    <string name="empty_agent_income_details">Once any user purchases a product within this area you will receive your fee</string>
     <string name="scan_qr_code">Scan QR code</string>
     <string name="amount_of_currency" translatable="false">%1$s %2$s</string>
     <string name="send">Send</string>
-    <string name="blockchain_message">Blockchain takes time. Please wait.</string>
     <string name="trading_center">Selling %1$s</string>
     <string name="error_empty_address">Address should not be blank</string>
     <string name="buy_currency">Buy %s</string>
+    <string name="cash_in">Cash in</string>
     <string name="cash_out">Cash out</string>
     <string name="my_wallet_address">My wallet address</string>
     <string name="share_wallet">Share wallet address</string>
@@ -252,11 +263,9 @@
     <string name="unit_price">Unit price</string>
     <string name="amount">Amount</string>
     <string name="sell">Sell</string>
-    <string name="remove_offer_text">Are you sure you want to cancel this offer?</string>
     <string name="set_unit_price">Set Unit Price, %s</string>
     <string name="total_price">Total Price, %1$s</string>
     <string name="best_offer">Best offer</string>
-    <string name="no_offers">Once you create the %1$s sale offer, it\'s details will be shown here</string>
     <string name="new_lpt_offer">New %1$s offer</string>
     <string name="amount_to_sell">Amount of %1$s to Sell</string>
     <string name="agent">Agent</string>
@@ -266,7 +275,6 @@
     <string name="agent_income_details">Agent Income Details</string>
     <string name="total_location_income">Total Location Income</string>
     <string name="merchant_start_chat">Start Chat</string>
-    <string name="empty_message">Unfortunately, there are no results matching your query</string>
     <string name="company">Company</string>
     <string name="out_of_sale">The store has been closed for maintenance.</string>
     <string name="txt_go_to_login">Go to login</string>
@@ -287,10 +295,10 @@
     <string name="forgot_transaction_password">Forgot transaction password?</string>
     <string name="new_transaction_password">New transaction password</string>
     <string name="transaction_password_changed">Transaction password has been successfully updated</string>
-    <string name="incorrect_transaction_pass">The transaction password you provided is incorrect</string>
+    <string name="incorrect_transaction_pass">The transaction password you have provided is incorrect</string>
     <string name="enter_passphrase">Enter your passphrase</string>
     <string name="next">Next</string>
-    <string name="error_incorrect_passphrase">The passphrase you provided is incorrect</string>
+    <string name="error_incorrect_passphrase">The passphrase you have provided is incorrect</string>
     <string name="error_verify_passphrase">Input passphrase is incorrect. Please try again</string>
     <string name="blockchain_enter_pass">Enter transaction password to view the passphrase to your blockchain wallet</string>
     <string name="view">View</string>
@@ -321,7 +329,7 @@
     <string name="theory_lpt_price">Theory Loyalty Point price</string>
     <string name="actual_price">Actual %s price</string>
     <string name="theory_price">Theory %s price</string>
-    <string name="favorite_remove_msg">This product was removed from Favorites</string>
+    <string name="favorite_remove_msg">This product has been removed from Favorites</string>
     <string name="services">Services</string>
     <string name="subcategories">Subcategories</string>
     <string name="all">All</string>
@@ -331,11 +339,11 @@
     <string name="date_of_registration">Date of registration</string>
     <string name="contribution">Contribution</string>
     <string name="fiat_rate_text">Today\'s exchange rate: 1 %1$s ≈ %2$s | 1 %3$s ≈ %4$s</string>
-    <string name="from">From</string>
+    <string name="joined_on">Joined on</string>
     <string name="sort_by">Sort by:</string>
     <string name="blockchain_id">Blockchain ID</string>
     <string name="return_lpt">Return %s</string>
-    <string name="lpt_offer_attempts_count">You can\'t make more than %1$d offers requests till %2$s. Number of allowed attempts: %3$d</string>
+    <string name="lpt_offer_attempts_count">You can\'t make more than %1$d offer requests per day. The number of allowed attempts is: %2$d</string>
     <string name="internal">Internal</string>
     <string name="multiply_of">Multiple of %s</string>
     <string name="cash_out_all_amount">Cash out all amount</string>
@@ -343,17 +351,16 @@
     <string name="error_incorrect_cashout_sum">%1$s amount must be multiple %2$s</string>
     <string name="shipping_included">Shipping Included</string>
     <string name="shipping_not_included">Shipping not Included</string>
-    <string name="no_orders">You don\'t have any orders yet. Once you\'ve made a purchase, a new order will show up here.</string>
     <string name="statistic_title">Statistic</string>
     <string name="shrinking_address">Shrinking address</string>
     <string name="initial_total_amount">Initial Total Amount</string>
     <string name="outstanding_amount">Outstanding amount</string>
     <string name="quantity_destroyed">Quantity destroyed</string>
-    <string name="generate_passphrase_text">Since only you control your money, you\'ll need to save your backup phrase in case this app is deleted. Your wallet is never saved to cloud storage or standard device backups.\n\nWrite down the showing pass phrase on the note, keep it in a safe &amp; findable place.</string>
+    <string name="generate_passphrase_text">Since only you control your money, you\’ll need to save your backup passphrase in case this app is deleted. Your wallet is never saved to cloud storage or standard device backups. Write down the shown passphrase, keep it in a safe and findable place.</string>
     <string name="title_generate_passphrase">Back up Passphrase</string>
     <string name="generate_passphrase_btn_text">I\'ve written it down</string>
     <string name="title_verify_passphrase">Verify the passphrase</string>
-    <string name="type_in_correct_order">Please type each word in correct order</string>
+    <string name="type_in_correct_order">Please type in each word in the correct order.</string>
     <string name="clear">Clear</string>
     <string name="is_it_correct">Is it correct?</string>
     <string name="memorize_passphrase_into_text">In order to memorize the passphrase properly please select the phrases in right sequence from left to right for the 2nd time</string>
@@ -364,23 +371,26 @@
     <string name="order_completed_chat_forbidden">This order is completed. You cannot have discussion.</string>
     <string name="order_reversed_chat_forbidden">This order is reversed. You cannot have discussion.</string>
     <string name="estimated_shipping_time">Estimated shipping time:</string>
-    <string name="estimated_shipping_time_description">You can receive the ordered product within that day range. You can also enjoy a protection period of 7 days after order is delivered to you.</string>
-    <string name="no_favorite_products">Once you select any product as favorite, you will see its details here</string>
+    <string name="estimated_shipping_time_description">You can receive the ordered product within that day range. You can also enjoy a protection period of 7 days after the order is delivered to you.</string>
     <string name="chat_with">Chat with</string>
     <string name="price">Price</string>
     <string name="reservation_timer_value">The reservation will end in %s</string>
-    <string name="reservation_timer_over">Reservation time is over. Please start order again</string>
+    <string name="reservation_timer_over">The reservation time is over. Please start the order again.</string>
     <string name="locations">Locations</string>
     <string name="location">Location</string>
     <string name="copy">Copy</string>
-    <string name="copied_to_clipboard">Wallet address has been copied to the clipboard</string>
+    <string name="copied_to_clipboard">The wallet address has been copied to the clipboard</string>
+    <string name="text_new">New</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="purchase">Purchase</string>
+    <string name="unknown_transaction_type">Unknown Transaction</string>
     <string-array name="wallets_page_titles">
         <item>Internal transfer</item>
         <item>External wallet</item>
     </string-array>
     <string-array name="wallet_info">
-        <item>Share this address with others, and they can send you all transferable internal tokens directly to your wallet</item>
-        <item>Share this address with others, and they can send you %s directly to your internal wallet from the external one. Your address changes with every payment.</item>
+        <item>Share this address with others so that they can send all transferable internal tokens directly to your wallet.</item>
+        <item>Share this address with others so that they can send %s directly to your internal wallet from an external one. Your address changes with every payment.</item>
     </string-array>
     <string-array name="cashout_page_titles">
         <item>@string/consumer</item>
